@@ -5,7 +5,7 @@
 ;; fnlfmt: skip
 (nyoom! :completion
         cmp                  ; the ultimate code completion backend
-        ;;copilot            ; the code completion of the future
+        copilot            ; the code completion of the future
         ;;fzf-lua            ; TODO a search engine for love and life
         (telescope +native)  ; the search engine of the future
 
@@ -14,16 +14,16 @@
         dashboard            ; a nifty splash screen for neovim
         ;;nyoom-quit         ; WIP: buggy, terrible implementation of doom-quit. 
         hydra                ; Discount modality for mythological beast hunters
-        ;;indent-guides      ; highlighted indent columns
+        indent-guides      ; highlighted indent columns
         modeline             ; snazzy, nano-emacs-inspired modeline
-        ;;nvimtree           ; a project drawer, like NERDTree for vim
+        nvimtree           ; a project drawer, like NERDTree for vim
         neotree              ; tree-like structures for neovim
         quickfix             ; enhancements to vim's builtin quickfix functionality
         trouble              ; view your diagnostics, now with icons! (i knew u were trouble when you walked iiiinnn)
-        ;;tabs               ; keep tabs on your buffers, literally
+        tabs               ; keep tabs on your buffers, literally
         vc-gutter            ; Get your diff out of the gutter
         window-select        ; Visually switch windows
-        zen                  ; distraction-free coding or writing TODO +twilight
+        ;;zen                  ; distraction-free coding or writing TODO +twilight
         noice                ; noice ui
 
         :editor
@@ -46,8 +46,8 @@
 
         :tools
         debugger             ; stepping through code, to help you add bugs
-        docker               ; row row row your boat TODO +netman?
-        ;;editorconfig       ; let someone else argue about tabs vs spaces
+        ;;docker               ; row row row your boat TODO +netman?
+        editorconfig       ; let someone else argue about tabs vs spaces
         ;;magma              ; tame Jupyter notebooks
         mason                ; setting your tools in stone
         eval                 ; run code, run (also, repls)
@@ -68,7 +68,7 @@
         java                 ; the poster child for carpal tunnel syndrome
         julia                ; a better, faster MATLAB
         ;;kotlin             ; FIXME: a better, slicker Java(Script)
-        ;;json               ; { "dʒeɪsən":  "Javascript Object Notation" }
+        json               ; { "dʒeɪsən":  "Javascript Object Notation" }
         latex                ; writing papers in Neovim has never been so fun
         ;;ledger             ; be audit you can be
         lua                  ; one-based indices? one-based indices
@@ -85,7 +85,7 @@
         rust                 ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
         (sh +fish)           ; she sells {ba,z,fi}sh shells on the C xor
         ;;xml                ; extend my language
-        ;;yaml               ; yet another markup language to enable
+        yaml               ; yet another markup language to enable
         zig                  ; C, but simpler
 
         :app
